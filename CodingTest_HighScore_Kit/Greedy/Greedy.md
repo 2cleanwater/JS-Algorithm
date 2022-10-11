@@ -30,7 +30,7 @@
 <br>
 
 <details markdown="1">
-<summary><strong>03. 큰수 만들기</strong></summary>
+<summary><strong>03. 큰수 만들기</strong></summary><br>
 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/42883<br><br>
 해결시간 : 1시간 30분<br><br>
 검색여부 : 예<br><br>
