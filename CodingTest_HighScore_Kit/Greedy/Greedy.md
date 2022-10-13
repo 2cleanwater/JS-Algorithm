@@ -38,3 +38,15 @@
 기억할 점 : for문 안에 while문을 통해 조건이 성립될 때 반복할 수 있는 방법을 기억해두자, slice(3)은 3번째 인덱스까지 잘라내기, substring(3)은 3번쨰 인덱스부터 출력
 
 </details>
+
+<br>
+
+<details markdown="1">
+<summary><strong>04. 구명보트</strong></summary><br>
+
+- 링크 : [https://school.programmers.co.kr/learn/courses/30/lessons/42883](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
+- 해결시간 : 32분
+- 검색여부 : 아니오
+- 문제 해결 방법 : limit 무게가 있다는 점과 최대 2명만 탈 수 있다는 조건이 있으므로 그 조건을 이용하여 반복문을 줄인다. 무인도 인원은 최대 50000명이므로 O(N * log N).  최대무게와 최소무게를 더한 값을 기준으로 가능하면 2명 안되면 1명을 보내는 식으로 for문과 endIndex값으로 전체 배열을 훑는다. 중간에 값이 겹치는 부분에서 동일하면 1명 보트, 스쳐갔으면 이미 그전에 2명을 보냈으므로 그냥 return을 하였다.
+- 기억할 점 : 그리디에서 해결 방법의 근거를 찾는 것이 중요하다. 최대 무게와 그 다음 최대를 합쳐 보내는 것은 해결 방법이 아니다.
+</details>
