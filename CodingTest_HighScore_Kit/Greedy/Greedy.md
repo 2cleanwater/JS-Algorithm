@@ -50,3 +50,28 @@
 - 문제 해결 방법 : limit 무게가 있다는 점과 최대 2명만 탈 수 있다는 조건이 있으므로 그 조건을 이용하여 반복문을 줄인다. 무인도 인원은 최대 50000명이므로 O(N * log N).  최대무게와 최소무게를 더한 값을 기준으로 가능하면 2명 안되면 1명을 보내는 식으로 for문과 endIndex값으로 전체 배열을 훑는다. 중간에 값이 겹치는 부분에서 동일하면 1명 보트, 스쳐갔으면 이미 그전에 2명을 보냈으므로 그냥 return을 하였다.
 - 기억할 점 : 그리디에서 해결 방법의 근거를 찾는 것이 중요하다. 최대 무게와 그 다음 최대를 합쳐 보내는 것은 해결 방법이 아니다.
 </details>
+
+<br>
+
+<details markdown="1">
+<summary><strong>05. 섬연결하기</strong></summary><br>
+
+- 링크 : [https://school.programmers.co.kr/learn/courses/30/lessons/42861](https://school.programmers.co.kr/learn/courses/30/lessons/42861)
+- 해결시간 : 1시간 30분
+- 검색여부 : 예
+- 문제 해결 방법 : 크루스칼 알고리즘을 이용해서 푸는 문제였다. sort로 비용순 정렬을 한 뒤 부모인자를 찾아내서 서로 연결되어있는지 확인하는 방법을 사용했다.
+- 기억할 점 : 크루스칼 알고리즘은 최소비용 신장 트리를 만드는 알고리즘이다.
+</details>
+
+<br>
+
+<details markdown="1">
+<summary><strong>06. 단속카메라</strong></summary><br>
+
+- 링크 : [https://school.programmers.co.kr/learn/courses/30/lessons/42884](https://school.programmers.co.kr/learn/courses/30/lessons/42884)
+- 해결시간 : 1시간 30분
+- 검색여부 : 아니오
+- 문제 해결 방법 : 카메라가 겹치는 지점을 파악하여 운전 시작 지점과 비교하면 되는 문제였다.
+- 기억할 점 : 조건이 복잡하다면 역으로 바꿔서 해보는 트라이를 해보자
+</details>
+
